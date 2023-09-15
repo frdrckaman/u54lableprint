@@ -36,38 +36,8 @@
         function labelType($label_type) {
             var l_type = '';
             switch ($label_type) {
-                case '01':
-                    l_type = 'Nasopharyngeal Swab';
-                    break;
-                case '02':
-                    l_type = 'Saliva';
-                    break;
-                case '03':
-                    l_type = 'Blood (EDTA)';
-                    break;
-                case '04':
-                    l_type = 'Blood (SST)';
-                    break;
-                case '05':
-                    l_type = 'ACD Blood';
-                    break;
-                case '06':
-                    l_type = 'Citrate Blood';
-                    break;
-                case '07':
-                    l_type = 'Urine';
-                    break;
-                case '08':
-                    l_type = 'PBMCs';
-                    break;
-                case '09':
-                    l_type = 'Plasma';
-                    break;
-                case '10':
-                    l_type = 'Serum';
-                    break;
-                case '11':
-                    l_type = "Fluoride Blood"
+                case '1':
+                    l_type = "Lung Tissue"
                     break;
             }
             return l_type;
@@ -127,18 +97,7 @@ value="Change" onclick="changeDevice();">--> <br/><br/>
 </select><br><br> -->
 <label for="label_type">Sample Type : </label>
 <select name="label_type" id="label_type">
-    <option value="">Type</option>
-    <option value="01">Nasopharyngeal Swab</option>
-    <option value="02">Saliva</option>
-    <option value="03">Blood (EDTA)</option>
-    <option value="04">Blood (SST)</option>
-    <option value="05">ACD Blood</option>
-    <option value="06">Citrate Blood</option>
-    <option value="07">Urine</option>
-    <option value="08">PBMCs</option>
-    <option value="09">Plasma</option>
-    <option value="10">Serum</option>
-    <option value="11">Fluoride Blood</option>
+    <option value="1">Lung Tissue</option>
 </select><br><br>
 <label for="fname">Sample Date : </label>
 <input type="text" name="label_date" id="label_date"><br><br>
